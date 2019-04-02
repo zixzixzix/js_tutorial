@@ -83,3 +83,13 @@ function functionalLengths(elements){
                  },{});
 }
 console.log(functionalLengths(states));
+
+// Exercises 6.3.4
+
+// let numbers = [1,2,3,4,5,6,7,8,9,10];
+
+function functionalProduct(elements){
+  return elements.reduce((product,element) => {
+    return product *= element;
+  },0);
+}
